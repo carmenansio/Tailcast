@@ -58,5 +58,17 @@ html {
 
 /* Preventing FOUC */
 @font-face {
-  font-display: var(--fontsource-Inter-font-display, optional);
+  font-display: block;
+  font-family: MoriRegular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/ppmori-regular-webfont.woff2)format("woff2"),url(../assets/fonts/PPMori-Regular-d4febc55.woff)format("woff")
+}
+
+@font-face {
+  font-display: block;
+  font-family: MoriSemiBold;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../assets/fonts/ppmori-semibold-webfont.woff2)format("woff2"),url(../assets/fonts/PPMori-SemiBold-992b0b7f.woff)format("woff")
 }
